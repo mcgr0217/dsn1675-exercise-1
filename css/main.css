@@ -26,13 +26,11 @@ body {
 }
 
 img {
-    display: block;
     width: 100%;
-    
 }
 
 figure {
-    margin: 0, 0, 0;
+    margin: auto;
 }
 
 figcaption {
@@ -40,7 +38,7 @@ figcaption {
     top: 250px;
     background: transparent;
     color: white; 
-    padding: 20px, 20px, 10px;
+    padding: 1em;
     font-style: italic;
     font-family: "Times New Roman", Georgia, Serif;
 }
@@ -48,6 +46,8 @@ figcaption {
 div {
     display:inline-block;
     padding: 1rem;
+    width: 10rem;
+    float: left;
     border-right: 1px solid gray;
 }
 
