@@ -21,11 +21,38 @@ html {
 }
 
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 img {
-  display: block;
-  width: 100%;
+    display: block;
+    width: 100%;
+    
 }
+
+figure {
+    margin: 0, 0, 0;
+}
+
+figcaption {
+    position: absolute; 
+    top: 250px;
+    background: transparent;
+    color: white; 
+    padding: 20px, 20px, 10px;
+    font-style: italic;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+div {
+    display:inline-block;
+    padding: 1rem;
+    border-right: 1px solid gray;
+}
+
+h1 {
+    padding: 1em;
+}
+
+    
